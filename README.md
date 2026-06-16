@@ -1,4 +1,5 @@
 <div align="center">
+  <img src="assets/Aris.gif" width="480" alt="Aris" />
   <table width="100%">
     <tr>
       <td width="50%" valign="top">
@@ -17,6 +18,4 @@
       </td>
     </tr>
   </table>
-  <br/>
-  <img src="assets/Aris.png" width="480" alt="Aris" />
 </div>
