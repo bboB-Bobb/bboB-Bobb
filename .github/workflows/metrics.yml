@@ -20,12 +20,10 @@ jobs:
           plugin_lines: yes
           plugin_stars: yes
           plugin_stars_limit: 3
-          theme: dark
           extras_css: |
             /* Terminal (green-on-black) */
-            .items-wrapper, svg { background: #0a0e14 !important; }
-            svg, svg *     { font-family: "JetBrains Mono","Cascadia Code","Consolas","Courier New",monospace !important; }
-            svg            { color: #c0ffce !important; }
+            .items-wrapper { background: #0a0e14 !important; }
+            svg            { background: #0a0e14 !important; color: #c0ffce !important; font-family: "JetBrains Mono","Cascadia Code","Consolas","Courier New",monospace !important; }
             h1, h2         { color: #39d353 !important; }
             h1 svg, h2 svg { fill:  #39d353 !important; }
             .field svg     { fill:  #39d353 !important; }
@@ -51,12 +49,10 @@ jobs:
           plugin_code_days: 30
           plugin_code_visibility: public
           plugin_code_skipped: bboB-Bobb/bboB-Bobb
-          theme: dark
           extras_css: |
             /* Terminal (green-on-black) */
-            .items-wrapper, svg { background: #0a0e14 !important; }
-            svg, svg *     { font-family: "JetBrains Mono","Cascadia Code","Consolas","Courier New",monospace !important; }
-            svg            { color: #c0ffce !important; }
+            .items-wrapper { background: #0a0e14 !important; }
+            svg            { background: #0a0e14 !important; color: #c0ffce !important; font-family: "JetBrains Mono","Cascadia Code","Consolas","Courier New",monospace !important; }
             h1, h2         { color: #39d353 !important; }
             h1 svg, h2 svg { fill:  #39d353 !important; }
             .field svg     { fill:  #39d353 !important; }
@@ -80,12 +76,10 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           config_padding: 6%, 1%
-          theme: dark
           extras_css: |
             /* Terminal (green-on-black) */
-            .items-wrapper, svg { background: #0a0e14 !important; }
-            svg, svg *     { font-family: "JetBrains Mono","Cascadia Code","Consolas","Courier New",monospace !important; }
-            svg            { color: #c0ffce !important; }
+            .items-wrapper { background: #0a0e14 !important; }
+            svg            { background: #0a0e14 !important; color: #c0ffce !important; font-family: "JetBrains Mono","Cascadia Code","Consolas","Courier New",monospace !important; }
             h1, h2         { color: #39d353 !important; }
             h1 svg, h2 svg { fill:  #39d353 !important; }
             .field svg     { fill:  #39d353 !important; }
@@ -108,12 +102,10 @@ jobs:
           base: ""
           plugin_calendar: yes
           plugin_calendar_limit: 0
-          theme: dark
           extras_css: |
             /* Terminal (green-on-black) */
-            .items-wrapper, svg { background: #0a0e14 !important; }
-            svg, svg *     { font-family: "JetBrains Mono","Cascadia Code","Consolas","Courier New",monospace !important; }
-            svg            { color: #c0ffce !important; }
+            .items-wrapper { background: #0a0e14 !important; }
+            svg            { background: #0a0e14 !important; color: #c0ffce !important; font-family: "JetBrains Mono","Cascadia Code","Consolas","Courier New",monospace !important; }
             h1, h2         { color: #39d353 !important; }
             h1 svg, h2 svg { fill:  #39d353 !important; }
             .field svg     { fill:  #39d353 !important; }
@@ -137,12 +129,10 @@ jobs:
           plugin_languages: yes
           plugin_languages_ignored: html, css
           plugin_languages_limit: 4
-          theme: dark
           extras_css: |
             /* Terminal (green-on-black) */
-            .items-wrapper, svg { background: #0a0e14 !important; }
-            svg, svg *     { font-family: "JetBrains Mono","Cascadia Code","Consolas","Courier New",monospace !important; }
-            svg            { color: #c0ffce !important; }
+            .items-wrapper { background: #0a0e14 !important; }
+            svg            { background: #0a0e14 !important; color: #c0ffce !important; font-family: "JetBrains Mono","Cascadia Code","Consolas","Courier New",monospace !important; }
             h1, h2         { color: #39d353 !important; }
             h1 svg, h2 svg { fill:  #39d353 !important; }
             .field svg     { fill:  #39d353 !important; }
@@ -166,12 +156,10 @@ jobs:
           plugin_repositories: yes
           plugin_repositories_featured: bboB-Bobb/Kei-Menu, bboB-Bobb/Simple-Macro
           plugin_repositories_order: featured
-          theme: dark
           extras_css: |
             /* Terminal (green-on-black) */
-            .items-wrapper, svg { background: #0a0e14 !important; }
-            svg, svg *     { font-family: "JetBrains Mono","Cascadia Code","Consolas","Courier New",monospace !important; }
-            svg            { color: #c0ffce !important; }
+            .items-wrapper { background: #0a0e14 !important; }
+            svg            { background: #0a0e14 !important; color: #c0ffce !important; font-family: "JetBrains Mono","Cascadia Code","Consolas","Courier New",monospace !important; }
             h1, h2         { color: #39d353 !important; }
             h1 svg, h2 svg { fill:  #39d353 !important; }
             .field svg     { fill:  #39d353 !important; }
@@ -196,12 +184,10 @@ jobs:
           plugin_achievements_threshold: C
           plugin_achievements_display: compact
           plugin_achievements_limit: 0
-          theme: dark
           extras_css: |
             /* Terminal (green-on-black) */
-            .items-wrapper, svg { background: #0a0e14 !important; }
-            svg, svg *     { font-family: "JetBrains Mono","Cascadia Code","Consolas","Courier New",monospace !important; }
-            svg            { color: #c0ffce !important; }
+            .items-wrapper { background: #0a0e14 !important; }
+            svg            { background: #0a0e14 !important; color: #c0ffce !important; font-family: "JetBrains Mono","Cascadia Code","Consolas","Courier New",monospace !important; }
             h1, h2         { color: #39d353 !important; }
             h1 svg, h2 svg { fill:  #39d353 !important; }
             .field svg     { fill:  #39d353 !important; }
