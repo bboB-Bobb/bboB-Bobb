@@ -22,20 +22,22 @@ jobs:
           plugin_stars_limit: 3
           theme: dark
           extras_css: |
-            /* Tokyo Night */
-            .items-wrapper, svg { background: #1a1b27 !important; }
-            svg            { color: #a9b1d6 !important; }
-            h1, h2         { color: #7aa2f7 !important; }
-            h1 svg, h2 svg { fill:  #bb9af7 !important; }
-            .field svg     { fill:  #7aa2f7 !important; }
-            .added         { color: #9ece6a !important; }
-            footer span    { color: #565f89 !important; }
+            /* Terminal (green-on-black) */
+            .items-wrapper, svg { background: #0a0e14 !important; }
+            svg, svg *     { font-family: "JetBrains Mono","Cascadia Code","Consolas","Courier New",monospace !important; }
+            svg            { color: #c0ffce !important; }
+            h1, h2         { color: #39d353 !important; }
+            h1 svg, h2 svg { fill:  #39d353 !important; }
+            .field svg     { fill:  #39d353 !important; }
+            .added         { color: #39d353 !important; }
+            footer span    { color: #2ea043 !important; }
+            h2::before     { content: "> " !important; color: #39d353 !important; }
             :root {
-              --color-calendar-graph-day-bg:    #1f2335 !important;
-              --color-calendar-graph-day-L1-bg: #3d59a1 !important;
-              --color-calendar-graph-day-L2-bg: #7aa2f7 !important;
-              --color-calendar-graph-day-L3-bg: #9ece6a !important;
-              --color-calendar-graph-day-L4-bg: #bb9af7 !important;
+              --color-calendar-graph-day-bg:    #0d1117 !important;
+              --color-calendar-graph-day-L1-bg: #0e4429 !important;
+              --color-calendar-graph-day-L2-bg: #006d32 !important;
+              --color-calendar-graph-day-L3-bg: #26a641 !important;
+              --color-calendar-graph-day-L4-bg: #39d353 !important;
             }
 
       - name: Isometric Calendar
@@ -48,23 +50,25 @@ jobs:
           plugin_isocalendar_duration: half-year
           theme: dark
           extras_css: |
-            /* Tokyo Night */
-            .items-wrapper, svg { background: #1a1b27 !important; }
-            svg            { color: #a9b1d6 !important; }
-            h1, h2         { color: #7aa2f7 !important; }
-            h1 svg, h2 svg { fill:  #bb9af7 !important; }
-            .field svg     { fill:  #7aa2f7 !important; }
-            .added         { color: #9ece6a !important; }
-            footer span    { color: #565f89 !important; }
+            /* Terminal (green-on-black) */
+            .items-wrapper, svg { background: #0a0e14 !important; }
+            svg, svg *     { font-family: "JetBrains Mono","Cascadia Code","Consolas","Courier New",monospace !important; }
+            svg            { color: #c0ffce !important; }
+            h1, h2         { color: #39d353 !important; }
+            h1 svg, h2 svg { fill:  #39d353 !important; }
+            .field svg     { fill:  #39d353 !important; }
+            .added         { color: #39d353 !important; }
+            footer span    { color: #2ea043 !important; }
+            h2::before     { content: "> " !important; color: #39d353 !important; }
             :root {
-              --color-calendar-graph-day-bg:    #1f2335 !important;
-              --color-calendar-graph-day-L1-bg: #3d59a1 !important;
-              --color-calendar-graph-day-L2-bg: #7aa2f7 !important;
-              --color-calendar-graph-day-L3-bg: #9ece6a !important;
-              --color-calendar-graph-day-L4-bg: #bb9af7 !important;
+              --color-calendar-graph-day-bg:    #0d1117 !important;
+              --color-calendar-graph-day-L1-bg: #0e4429 !important;
+              --color-calendar-graph-day-L2-bg: #006d32 !important;
+              --color-calendar-graph-day-L3-bg: #26a641 !important;
+              --color-calendar-graph-day-L4-bg: #39d353 !important;
             }
 
-      - name: Languages (in-depth)
+      - name: Languages
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics-languages.svg
@@ -73,56 +77,52 @@ jobs:
           plugin_languages: yes
           plugin_languages_ignored: html, css
           plugin_languages_limit: 4
-          plugin_languages_indepth: yes
-          plugin_languages_sections: most-used, recently-used
-          plugin_languages_details: bytes-size, percentage
           theme: dark
           extras_css: |
-            /* Tokyo Night */
-            .items-wrapper, svg { background: #1a1b27 !important; }
-            svg            { color: #a9b1d6 !important; }
-            h1, h2         { color: #7aa2f7 !important; }
-            h1 svg, h2 svg { fill:  #bb9af7 !important; }
-            .field svg     { fill:  #7aa2f7 !important; }
-            .added         { color: #9ece6a !important; }
-            footer span    { color: #565f89 !important; }
+            /* Terminal (green-on-black) */
+            .items-wrapper, svg { background: #0a0e14 !important; }
+            svg, svg *     { font-family: "JetBrains Mono","Cascadia Code","Consolas","Courier New",monospace !important; }
+            svg            { color: #c0ffce !important; }
+            h1, h2         { color: #39d353 !important; }
+            h1 svg, h2 svg { fill:  #39d353 !important; }
+            .field svg     { fill:  #39d353 !important; }
+            .added         { color: #39d353 !important; }
+            footer span    { color: #2ea043 !important; }
+            h2::before     { content: "> " !important; color: #39d353 !important; }
             :root {
-              --color-calendar-graph-day-bg:    #1f2335 !important;
-              --color-calendar-graph-day-L1-bg: #3d59a1 !important;
-              --color-calendar-graph-day-L2-bg: #7aa2f7 !important;
-              --color-calendar-graph-day-L3-bg: #9ece6a !important;
-              --color-calendar-graph-day-L4-bg: #bb9af7 !important;
+              --color-calendar-graph-day-bg:    #0d1117 !important;
+              --color-calendar-graph-day-L1-bg: #0e4429 !important;
+              --color-calendar-graph-day-L2-bg: #006d32 !important;
+              --color-calendar-graph-day-L3-bg: #26a641 !important;
+              --color-calendar-graph-day-L4-bg: #39d353 !important;
             }
 
-      - name: Habits & Skills
+      - name: Skills
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics-extras.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: no
           plugin_topics: yes
           plugin_topics_mode: mastered
           plugin_topics_sort: stars
           plugin_topics_limit: 0
           theme: dark
           extras_css: |
-            /* Tokyo Night */
-            .items-wrapper, svg { background: #1a1b27 !important; }
-            svg            { color: #a9b1d6 !important; }
-            h1, h2         { color: #7aa2f7 !important; }
-            h1 svg, h2 svg { fill:  #bb9af7 !important; }
-            .field svg     { fill:  #7aa2f7 !important; }
-            .added         { color: #9ece6a !important; }
-            footer span    { color: #565f89 !important; }
+            /* Terminal (green-on-black) */
+            .items-wrapper, svg { background: #0a0e14 !important; }
+            svg, svg *     { font-family: "JetBrains Mono","Cascadia Code","Consolas","Courier New",monospace !important; }
+            svg            { color: #c0ffce !important; }
+            h1, h2         { color: #39d353 !important; }
+            h1 svg, h2 svg { fill:  #39d353 !important; }
+            .field svg     { fill:  #39d353 !important; }
+            .added         { color: #39d353 !important; }
+            footer span    { color: #2ea043 !important; }
+            h2::before     { content: "> " !important; color: #39d353 !important; }
             :root {
-              --color-calendar-graph-day-bg:    #1f2335 !important;
-              --color-calendar-graph-day-L1-bg: #3d59a1 !important;
-              --color-calendar-graph-day-L2-bg: #7aa2f7 !important;
-              --color-calendar-graph-day-L3-bg: #9ece6a !important;
-              --color-calendar-graph-day-L4-bg: #bb9af7 !important;
+              --color-calendar-graph-day-bg:    #0d1117 !important;
+              --color-calendar-graph-day-L1-bg: #0e4429 !important;
+              --color-calendar-graph-day-L2-bg: #006d32 !important;
+              --color-calendar-graph-day-L3-bg: #26a641 !important;
+              --color-calendar-graph-day-L4-bg: #39d353 !important;
             }
