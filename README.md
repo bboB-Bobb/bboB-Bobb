@@ -3,6 +3,8 @@
     <tr>
       <td width="50%" valign="top">
         <img src="github-metrics.svg" alt="bboB-Bobb's GitHub Metrics" />
+        <br/><br/>
+        <img src="github-metrics-code.svg" alt="Recent Code" />
       </td>
       <td width="50%" valign="top">
         <img src="github-metrics-calendar.svg" alt="Contributions Calendar" />
