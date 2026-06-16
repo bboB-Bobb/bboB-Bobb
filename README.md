@@ -9,7 +9,7 @@
         <br/><br/>
         <img src="github-metrics-languages.svg" alt="Languages" />
         <br/><br/>
-        <img src="github-metrics-extras.svg" alt="Skills" />
+        <img src="github-metrics-extras.svg" alt="Featured Repositories" />
       </td>
     </tr>
   </table>

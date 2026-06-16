@@ -97,16 +97,15 @@ jobs:
               --color-calendar-graph-day-L4-bg: #39d353 !important;
             }
 
-      - name: Skills
+      - name: Featured Repositories
         uses: lowlighter/metrics@latest
         with:
           filename: github-metrics-extras.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          plugin_topics: yes
-          plugin_topics_mode: mastered
-          plugin_topics_sort: stars
-          plugin_topics_limit: 0
+          plugin_repositories: yes
+          plugin_repositories_featured: bboB-Bobb/Kei-Menu, bboB-Bobb/Simple-Macro
+          plugin_repositories_order: featured
           theme: dark
           extras_css: |
             /* Terminal (green-on-black) */
