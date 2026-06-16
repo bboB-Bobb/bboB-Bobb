@@ -17,4 +17,6 @@
       </td>
     </tr>
   </table>
+  <br/>
+  <img src="assets/Aris.png" width="480" alt="Aris" />
 </div>
