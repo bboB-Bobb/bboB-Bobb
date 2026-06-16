@@ -79,6 +79,7 @@ jobs:
           extras_css: |
             /* Terminal (green-on-black) */
             .items-wrapper { background: #0a0e14 !important; padding-top: 20px !important; }
+            path[fill="#ebedf0"] { fill: transparent !important; }
             svg            { background: #0a0e14 !important; color: #c0ffce !important; font-family: "JetBrains Mono","Cascadia Code","Consolas","Courier New",monospace !important; }
             h1, h2         { color: #39d353 !important; }
             h1 svg, h2 svg { fill:  #39d353 !important; }
