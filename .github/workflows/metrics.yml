@@ -21,6 +21,22 @@ jobs:
           plugin_stars: yes
           plugin_stars_limit: 3
           theme: dark
+          extras_css: |
+            /* Tokyo Night */
+            .items-wrapper, svg { background: #1a1b27; }
+            svg            { color: #a9b1d6; }
+            h1, h2         { color: #7aa2f7; }
+            h1 svg, h2 svg { fill:  #bb9af7; }
+            .field svg     { fill:  #7aa2f7; }
+            .added         { color: #9ece6a; }
+            footer span    { color: #565f89; }
+            :root {
+              --color-calendar-graph-day-bg:    #1f2335;
+              --color-calendar-graph-day-L1-bg: #3d59a1;
+              --color-calendar-graph-day-L2-bg: #7aa2f7;
+              --color-calendar-graph-day-L3-bg: #9ece6a;
+              --color-calendar-graph-day-L4-bg: #bb9af7;
+            }
 
       - name: Isometric Calendar
         uses: lowlighter/metrics@latest
@@ -31,6 +47,22 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
           theme: dark
+          extras_css: |
+            /* Tokyo Night */
+            .items-wrapper, svg { background: #1a1b27; }
+            svg            { color: #a9b1d6; }
+            h1, h2         { color: #7aa2f7; }
+            h1 svg, h2 svg { fill:  #bb9af7; }
+            .field svg     { fill:  #7aa2f7; }
+            .added         { color: #9ece6a; }
+            footer span    { color: #565f89; }
+            :root {
+              --color-calendar-graph-day-bg:    #1f2335;
+              --color-calendar-graph-day-L1-bg: #3d59a1;
+              --color-calendar-graph-day-L2-bg: #7aa2f7;
+              --color-calendar-graph-day-L3-bg: #9ece6a;
+              --color-calendar-graph-day-L4-bg: #bb9af7;
+            }
 
       - name: Languages
         uses: lowlighter/metrics@latest
@@ -42,3 +74,19 @@ jobs:
           plugin_languages_ignored: html, css
           plugin_languages_limit: 4
           theme: dark
+          extras_css: |
+            /* Tokyo Night */
+            .items-wrapper, svg { background: #1a1b27; }
+            svg            { color: #a9b1d6; }
+            h1, h2         { color: #7aa2f7; }
+            h1 svg, h2 svg { fill:  #bb9af7; }
+            .field svg     { fill:  #7aa2f7; }
+            .added         { color: #9ece6a; }
+            footer span    { color: #565f89; }
+            :root {
+              --color-calendar-graph-day-bg:    #1f2335;
+              --color-calendar-graph-day-L1-bg: #3d59a1;
+              --color-calendar-graph-day-L2-bg: #7aa2f7;
+              --color-calendar-graph-day-L3-bg: #9ece6a;
+              --color-calendar-graph-day-L4-bg: #bb9af7;
+            }
