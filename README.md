@@ -8,6 +8,8 @@
         <img src="github-metrics-calendar.svg" alt="Contributions Calendar" />
         <br/><br/>
         <img src="github-metrics-languages.svg" alt="Languages" />
+        <br/><br/>
+        <img src="github-metrics-extras.svg" alt="Habits, Achievements & Notable Contributions" />
       </td>
     </tr>
   </table>
