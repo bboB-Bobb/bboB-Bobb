@@ -7,6 +7,8 @@
       <td width="50%" valign="top">
         <img src="github-metrics-calendar.svg" alt="Contributions Calendar" />
         <br/><br/>
+        <img src="github-metrics-year.svg" alt="Full-Year Calendar" />
+        <br/><br/>
         <img src="github-metrics-languages.svg" alt="Languages" />
         <br/><br/>
         <img src="github-metrics-extras.svg" alt="Featured Repositories" />
