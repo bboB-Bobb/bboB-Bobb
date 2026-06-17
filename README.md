@@ -4,6 +4,7 @@
     <tr>
       <td width="50%" valign="top">
         <img src="github-metrics.svg?v=6" alt="bboB-Bobb's GitHub Metrics" />
+        <img src="github-metrics-code.svg?v=6" alt="Recent Code" />
       </td>
       <td width="50%" valign="top">
         <img src="github-metrics-calendar.svg?v=6" alt="Contributions Calendar" />
@@ -13,8 +14,6 @@
         <img src="github-metrics-languages.svg?v=6" alt="Languages" />
         <br/><br/>
         <img src="github-metrics-extras.svg?v=6" alt="Featured Repositories" />
-        <br/><br/>
-        <img src="github-metrics-code.svg?v=6" alt="Recent Code" />
       </td>
     </tr>
   </table>
