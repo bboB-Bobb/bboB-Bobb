@@ -7,18 +7,18 @@
     </tr>
     <tr>
       <td width="50%" valign="top">
-        <img src="github-metrics.svg?v=8" alt="bboB-Bobb's GitHub Metrics" />
+        <img src="github-metrics.svg?v=1" alt="bboB-Bobb's GitHub Metrics" />
       </td>
       <td width="50%" valign="top">
-        <img src="github-metrics-calendar.svg?v=8" alt="Contributions Calendar" />
+        <img src="github-metrics-calendar.svg?v=1" alt="Contributions Calendar" />
         <br/><br/>
-        <img src="github-metrics-year.svg?v=8" alt="Full-Year Calendar" />
+        <img src="github-metrics-year.svg?v=1" alt="Full-Year Calendar" />
         <br/><br/>
-        <img src="github-metrics-languages.svg?v=8" alt="Languages" />
+        <img src="github-metrics-languages.svg?v=1" alt="Languages" />
         <br/><br/>
-        <img src="github-metrics-extras.svg?v=8" alt="Featured Repositories" />
+        <img src="github-metrics-extras.svg?v=1" alt="Featured Repositories" />
         <br/><br/>
-        <img src="github-metrics-code.svg?v=8" alt="Recent Code" />
+        <img src="github-metrics-code.svg?v=1" alt="Recent Code" />
       </td>
     </tr>
   </table>
