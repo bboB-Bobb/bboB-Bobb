@@ -1,6 +1,10 @@
 <div align="center">
-  <img src="assets/Aris.gif" width="480" alt="Aris" />
   <table width="100%">
+    <tr>
+      <td colspan="2" align="center">
+        <img src="assets/Aris.gif" width="480" alt="Aris" />
+      </td>
+    </tr>
     <tr>
       <td width="50%" valign="top">
         <img src="github-metrics.svg?v=6" alt="bboB-Bobb's GitHub Metrics" />
