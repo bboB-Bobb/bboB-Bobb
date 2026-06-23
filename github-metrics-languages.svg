@@ -36,10 +36,10 @@ h2::before { content: "&gt; " !important; color: #39d353 !important; }
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="362.03488095049" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="362.03488095049" y="0" width="43.292882443572594" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="405.32776339406263" y="0" width="39.062614165223884" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="444.3903775592865" y="0" width="15.609622440713501" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="283.1607469601425" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="283.1607469601425" y="0" width="131.27464653989404" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="414.4353935000365" y="0" width="33.35648257858611" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="447.79187607862264" y="0" width="12.208123921377364" height="8" fill="#000080"/>
                 </svg>
                 <div class="field center horizontal-wrap fill-width">
                     <div class="field center no-wrap language">
