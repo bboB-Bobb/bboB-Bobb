@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/Aris.gif" width="480" alt="Aris" />
   <h6>
-  If it's open source, would you believe that the releases don't have a virus?
+  If it's open source, would you believe that the releases aren't ratted?
 </h6>
   <table width="100%">
     <tr>
