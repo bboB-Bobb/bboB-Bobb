@@ -1,5 +1,5 @@
 <div align="center">
-  If it's open source, would you believe that the releases don't have a virus?
+  <font color="#8b949e">If it's open source, would you believe that the releases don't have a virus?</font>
 </div>
 
 <div align="center">
