@@ -1,4 +1,6 @@
-> If it's open source, would you believe that the releases don't have a virus?
+<div align="center">
+  If it's open source, would you believe that the releases don't have a virus?
+</div>
 
 <div align="center">
   <img src="assets/Aris.gif" width="480" alt="Aris" />
