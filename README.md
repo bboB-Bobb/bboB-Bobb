@@ -1,6 +1,6 @@
-<div align="center">
-  <font color="#8b949e">If it's open source, would you believe that the releases don't have a virus?</font>
-</div>
+<h6 align="center">
+  If it's open source, would you believe that the releases don't have a virus?
+</h6>
 
 <div align="center">
   <img src="assets/Aris.gif" width="480" alt="Aris" />
