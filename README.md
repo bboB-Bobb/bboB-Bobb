@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/Aris.gif" width="480" alt="Aris" />
   <h6>
-  If it's open source, would you believe that the releases aren't ratted?
+  If it's open source, would you believe that the releases are not ratted?
 </h6>
   <table width="100%">
     <tr>
